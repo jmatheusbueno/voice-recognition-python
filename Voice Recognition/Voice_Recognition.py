@@ -28,7 +28,7 @@ with sr.Microphone() as font:
             else:
                 print('You: ' + useraudio)
                 tm.sleep(1)
-                print('\nI can help with something else?')       
+                print('\nCan I help with something else?')       
                 
         except:
             print('\nSorry I cant understand.\n')
